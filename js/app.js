@@ -50,8 +50,8 @@ $(document).ready(function () {
         };
 
         function visualResult(tip) {
-           
-            $(".total").text("Tips: "+tip+" USD");
+
+            $(".total").text("Tips: " + tip + " USD");
             $(".image").html("<img src='chuck.jpg'>");
         };
         getValues();
